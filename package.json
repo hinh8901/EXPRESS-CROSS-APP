@@ -13,9 +13,11 @@
     "@": "dist",
     "@public": "public",
     "@routes": "dist/routes",
-    "@views": "dist/views"
+    "@views": "dist/views",
+    "@database": "dist/database"
   },
   "dependencies": {
+    "bcrypt": "^5.1.1",
     "cookie-parser": "~1.4.4",
     "cors": "^2.8.5",
     "debug": "~2.6.9",
@@ -24,11 +26,14 @@
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "module-alias": "^2.2.3",
+    "mongodb": "^6.11.0",
     "mongoose": "^8.7.1",
     "morgan": "~1.9.1"
   },
   "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
     "@types/express": "^5.0.0",
+    "@types/node": "^22.10.1",
     "nodemon": "^3.1.7",
     "npm-run-all": "^4.1.5",
     "typescript": "^5.6.3"

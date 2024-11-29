@@ -10,10 +10,10 @@ var logger = require("morgan")
 var indexRouter = require("./routes/index")
 var usersRouter = require("./routes/users")
 
-const mongoose = require('mongoose');
+const mongoose = require("mongoose")
 
 var app = express()
-var cors = require('cors')
+var cors = require("cors")
 
 // use CORS middleware
 app.use(cors())
